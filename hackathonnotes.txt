@@ -1,0 +1,47 @@
+ 2. val header = rdd.first()
+
+2.val rddremoveheadder = rdd.map(x=>x!=header)
+
+3.val countstep1=rddremoveheader.count()
+3.rddremoveheader.take(10)
+
+4.
+4.val valfilteredRow = rddRow.filter(row => row!=null && row.length>0)
+4.rdd1.filter(x => !x.isEmpty)
+
+5.val newrdd = rddremoveheader.split(","-1)
+6.filter(x=>x_.length=10) in spark rdd
+6.val filterrdd=rdd.filter(x=>length(x)=10)
+val countstep7 = filterrdd.count()
+
+7. caseclass insureclass(refer header)
+
+8. val stepcount8= countstep1-countstep2;
+
+9. val rejectdata = rdd.filter(x=>length(x)!=10)
+
+12.val rddmerged=rddremoveheader.merge(rddremoveheader2)
+
+12.val rddmerged= rddremoveheader.union(rddremoveheader2)
+
+13.val cacherdd=rddmerged.cache()
+
+14.val mergedcount=rddmerged.count()
+if,else
+
+15.val removedduplicates=cacherdd.distinct()
+   val numberofduplicates=mergedcount-removedduplicates
+16.val repartitons=cacherdd,.repartition(8)
+
+17.val rdd_20190101=cacherdd.filter(x => x(3) == "2019-10-01")
+18.val saveastest=reddmerged.saveAsTextFile("user/hduser/sparkhack2")
+
+21.val structtype into data frame or create dataframe
+
+22.df.withColumnRenamed("old","new")
+23.
+
+
+
+
+
