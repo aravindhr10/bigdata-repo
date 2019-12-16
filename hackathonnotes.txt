@@ -3,7 +3,7 @@
 2.val rddremoveheadder = rdd.map(x=>x!=header)
 
 3.val countstep1=rddremoveheader.count()
-3.rddremoveheader.take(10)
+3.rddremoveheader.take(100)
 
 4.
 4.val valfilteredRow = rddRow.filter(row => row!=null && row.length>0)
@@ -33,7 +33,7 @@ if,else
    val numberofduplicates=mergedcount-removedduplicates
 16.val repartitons=cacherdd,.repartition(8)
 
-17.val rdd_20190101=cacherdd.filter(x => x(3) == "2019-10-01")
+17.val rdd_20190101=cacherdd.filter(x => x(3) == "2019-12-01")
 18.val saveastest=reddmerged.saveAsTextFile("user/hduser/sparkhack2")
 
 21.val structtype into data frame or create dataframe
